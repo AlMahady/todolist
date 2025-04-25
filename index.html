@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>To do list App</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="main">
+    <div class="welcome">
+         <div class="logo"><h1>MY<br>Daily<br>Routine</h1></div>
+         <div class="greet"><h2>Welcome to step one twards your Dream</h2></div>
+    </div>
+    <div class="datecontainer">
+
+        <input type="date" id="datePicker"/>
+        <div id="displayDate" class="big-date">Select a Date</div>
+    
+    </div>
+
+    <div class="todo_app">
+        <h3>My List For Today <img src="images/editorial-design.png" height="5%" width="5%"></h3>
+       <div class="input">
+             <input type="text" id="tasks" placeholder="My Task">
+             <button onclick="addtask()">Add</button>
+       </div>
+       <ul id="list_container">
+        <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+       </ul>
+    </div>
+
+</div>
+    
+    
+<!-- linkihg this file to a javascript file -->
+ 
+<script src="script.js"></script>
+</body>
+</html>
